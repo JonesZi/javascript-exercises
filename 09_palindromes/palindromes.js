@@ -2,10 +2,10 @@ const palindromes = function (string) {
     cleanString = string.toLowerCase()
                         .replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g,"")
                         .replace(/\s/g, "");
-    backwardsString = cleanString
-                        .split("")
-                        .reverse()
-                        .join("");
+    // backwardsString = cleanString
+    //                     .split("")
+    //                     .reverse()
+    //                     .join("");
     
     return (cleanString
             .split("")
