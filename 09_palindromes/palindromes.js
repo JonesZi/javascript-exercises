@@ -7,11 +7,11 @@ const palindromes = function (string) {
                         .reverse()
                         .join("");
     
-    if (backwardsString == cleanString) {
-        return true;
-    } else {
-        return false;
-    }
+    return (cleanString
+            .split("")
+            .reverse()
+            .join("") 
+            == cleanString);
 };
 
 // Do not edit below this line
